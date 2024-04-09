@@ -11,6 +11,7 @@ RUN set -ex ;\
     bash \
     ca-certificates \
     libffi-dev \
+    vim screen \
     curl wget ; \
     git clone https://github.com/bismuthfoundation/Bismuth.git /Bismuth ;\
     cd /Bismuth ; \
@@ -27,7 +28,7 @@ RUN set -ex ;\
     cp peers.txt bak; \
     cp suggested_peers.txt bak; \
     cd plugins/500_hypernode; \
-    wget https://github.com/bismuthfoundation/hypernode/raw/beta99/node_plugin/__init__.py; \
+    wget https://github.com/HeavensGold/hypernode/raw/test/node_plugin/__init__.py; \
     cd ../035_socket_client; \
     wget https://github.com/bismuthfoundation/BismuthPlugins/raw/master/plugins/035_socket_client/__init__.py; \
     cd ../..; \

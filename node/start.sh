@@ -15,4 +15,4 @@ echo "Bootstrapping (todo)"
 
 cd /Bismuth
 echo "Starting Bismuth Node"
-python node.py
+screen -dmS node python node.py
