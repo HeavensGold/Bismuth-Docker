@@ -11,7 +11,7 @@ RUN set -ex ;\
     bash \
     ca-certificates \
     libffi-dev \
-    vim screen \
+    vim nano screen \
     curl wget ; \
     git clone https://github.com/bismuthfoundation/Bismuth.git /Bismuth ;\
     cd /Bismuth ; \
