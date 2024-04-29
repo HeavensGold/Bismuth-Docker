@@ -13,7 +13,7 @@ RUN set -ex ;\
     libffi-dev \
     vim nano screen \
     curl wget ; \
-    git clone https://github.com/bismuthfoundation/Bismuth.git /Bismuth ;\
+    git clone https://github.com/HeavensGold/Bismuth.git /Bismuth ;\
     cd /Bismuth ; \
     git checkout master; \
     pip install --upgrade --no-cache-dir coincurve; \
